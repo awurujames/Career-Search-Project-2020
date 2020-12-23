@@ -1,0 +1,231 @@
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.csprojAssemblyReference.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.AssemblyInfoInputs.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.AssemblyInfo.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.csproj.CoreCompileInputs.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.MvcApplicationPartsAssemblyInfo.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.RazorAssemblyInfo.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.RazorAssemblyInfo.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\appsettings.Development.json
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\appsettings.json
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.exe
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.deps.json
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.runtimeconfig.json
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.runtimeconfig.dev.json
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ref\Career Search Project.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.Views.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Career Search Project.Views.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Humanizer.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\staticwebassets\Career Search Project.StaticWebAssets.Manifest.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\staticwebassets\Career Search Project.StaticWebAssets.xml
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\scopedcss\bundle\Career Search Project.styles.css
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.TagHelpers.input.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.TagHelpers.output.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.RazorCoreGenerate.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Accessdenied.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Login.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Register.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\FunctionalAreas\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\FunctionalAreas\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\FunctionalAreas\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\FunctionalAreas\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\FunctionalAreas\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Privacy.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Industries\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Industries\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Industries\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Industries\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Industries\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobEmployers\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobEmployers\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobEmployers\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobEmployers\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobEmployers\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobInformations\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobInformations\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobInformations\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobInformations\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobInformations\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobSeekers\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobSeekers\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobSeekers\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobSeekers\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobSeekers\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobTypes\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobTypes\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobTypes\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobTypes\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\JobTypes\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout2.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\TopJobs\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\TopJobs\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\TopJobs\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\TopJobs\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\TopJobs\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\WalkIns\Create.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\WalkIns\Delete.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\WalkIns\Details.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\WalkIns\Edit.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\WalkIns\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\AllJobs.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\Jobs.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\Walkin.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Shared\_Layout3.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.RazorTargetAssemblyInfo.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.RazorTargetAssemblyInfo.cs
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.Views.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.csproj.CopyComplete
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\ref\Career Search Project.dll
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.pdb
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Career Search Project.genruntimeconfig.cache
+C:\CodebitAcademyFolder\ASP.NET Core\Career Search Project\Career Search Project\obj\Debug\net5.0\Razor\Views\Home\AllJobSeeker.cshtml.g.cs
