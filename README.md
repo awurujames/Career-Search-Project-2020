@@ -20,7 +20,7 @@ Name: teechamp@gmail.com
 Password: Secret123@
 Role: Job Seeker.
  
-Below are the Main component of the application
+Below are the Main component of the application.
 
 Job Employer = Any Company(eg SDSD prestige, chelsea etc), 
 Job Type  = (Part Time, Full time, Contract), 
