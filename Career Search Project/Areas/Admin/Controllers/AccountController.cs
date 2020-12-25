@@ -15,16 +15,16 @@ namespace Career_Search_Project.Areas.Admin.Controllers
     public class AccountController : Controller
     {
         private readonly SignInManager<User> _signInManager;
-        private readonly RoleManager<IdentityRole> roleManager;
-        private readonly UserManager<User> userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly UserManager<User> _userManager;
 
         public AccountController(SignInManager<User> signInManager,
         RoleManager<IdentityRole> roleManager,
         UserManager<User> userManager)
         {
             _signInManager = signInManager;
-            this.roleManager = roleManager;
-            this.userManager = userManager;
+            _roleManager = roleManager;
+            _userManager = userManager;
         }
         [HttpGet]
         [AllowAnonymous]
@@ -45,6 +45,35 @@ namespace Career_Search_Project.Areas.Admin.Controllers
 
             if (result.Succeeded)
             {
+                User user = await _userManager.FindByEmailAsync(model.Email);
+
+                if(await _userManager.IsInRoleAsync(user, "Administrator"))
+                {
+                    if (returnUrl != null)
+                        return LocalRedirect(returnUrl); // the localredirect is to avoid 0RedirectVulnearability Attack
+                    else
+                        return RedirectToAction("Index", "Dashboard");
+                }
+
+                if (await _userManager.IsInRoleAsync(user, "JobSeeker"))
+                {
+                    if (returnUrl != null && !returnUrl.ToLower().Contains("admin"))
+                        return LocalRedirect(returnUrl); // the localredirect is to avoid 0RedirectVulnearability Attack
+                    else
+                        return RedirectToAction("AllJobs", "Home", new { Area = "" });
+                }
+
+
+                if (await _userManager.IsInRoleAsync(user, "JobEmployer"))
+                {
+                    if (returnUrl != null && !returnUrl.ToLower().Contains("admin"))
+                        return LocalRedirect(returnUrl); // the localredirect is to avoid 0RedirectVulnearability Attack
+                    else
+                        return RedirectToAction("JobEmployer", "Home", new { Area=""});
+                }
+
+
+
                 if (returnUrl != null)
                     return LocalRedirect(returnUrl); // the localredirect is to avoid 0RedirectVulnearability Attack
                 else
@@ -84,11 +113,11 @@ namespace Career_Search_Project.Areas.Admin.Controllers
 
                 var user = new User { FullName = model.FullName, Email = model.Email, Tel = model.Tel, UserName = model.Email };
 
-                var result = await userManager.CreateAsync(user, model.Password);
+                var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
 
-                    await userManager.AddToRoleAsync(user, model.Role);
+                    await _userManager.AddToRoleAsync(user, model.Role);
 
                     TempData["StatusMessage"] = "New account created successfully";
                     return RedirectToAction("Register");
@@ -100,8 +129,12 @@ namespace Career_Search_Project.Areas.Admin.Controllers
                         ModelState.AddModelError("", error.Description);
                     }
                     model.UserRoles = GetRolesDropdown();
+
                 }
+
             }
+            model.UserRoles = GetRolesDropdown();
+
             return View(model);
         }
 
@@ -117,7 +150,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
         [NonAction]
         public ICollection<SelectListItem> GetRolesDropdown()
         {
-            return roleManager.Roles.Select(r => new SelectListItem { Text = r.Name, Value = r.Name }).ToList();
+            return _roleManager.Roles.Select(r => new SelectListItem { Text = r.Name, Value = r.Name }).ToList();
         }
 
         public IActionResult Accessdenied()
