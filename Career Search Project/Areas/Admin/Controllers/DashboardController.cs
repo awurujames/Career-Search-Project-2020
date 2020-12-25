@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace Career_Search_Project.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize(Roles = "Administrator")]
 	public class DashboardController : Controller
     {
 		public IActionResult Index()

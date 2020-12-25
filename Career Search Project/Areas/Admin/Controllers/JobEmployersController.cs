@@ -8,10 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using Career_Search_Project.Areas.Admin.Data;
 using Career_Search_Project.Areas.Admin.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Career_Search_Project.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Administrator")]
     public class JobEmployersController : Controller
     {
         private readonly ApplicationDbContext _repo;

@@ -11,7 +11,7 @@ namespace Career_Search_Project.Areas.Admin.ViewModel
         public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<JobInformation> JobInformations { get; set; }
-        public ICollection<JobEmployerViewModel> JobEmployer { get; set; }
+        public ICollection<JobEmployer> JobEmployer { get; set; }
         public ICollection<WalkIn> WalkIn { get; set; }
     }
 }

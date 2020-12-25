@@ -10,9 +10,10 @@
 <hr />
 <div class="row">
     <form asp-action="Create">
-        <div class="col-md-12">
+        <div class=" row col-md-12">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group col-md-3">
+               
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
@@ -32,7 +33,7 @@
                 <span asp-validation-for="AgeLimit" class="text-danger"></span>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="row col-md-12">
             <div class="form-group col-md-3">
                 <label asp-for="YearsOfExperience" class="control-label"></label>
                 <input asp-for="YearsOfExperience" class="form-control" />
@@ -54,7 +55,7 @@
                 <span asp-validation-for="Responsibility" class="text-danger"></span>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class=" row col-md-12">
             <div class="form-group col-md-3">
                 <label asp-for="JobSummary" class="control-label"></label>
                 <input asp-for="JobSummary" class="form-control" />

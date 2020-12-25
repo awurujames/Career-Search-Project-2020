@@ -21,18 +21,25 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <form class="searchform order-sm-start order-lg-last" method="get" asp-controller="Home" asp-action="AllJobs">
-                    <div class="form-group d-flex">
-                        <input type="text" asp-for="SearchString" class="form-control pl-3" placeholder="Search by job name">
+                    <div class="col-md-4">
+                        <div class="form-group d-flex">
+                            <input type="text" asp-for="SearchString" class="form-control pl-3" placeholder="Search by job name">
+                        </div>
                     </div>
-
-                    <select asp-for="Industry" asp-items="ViewBag.Industry">
-                        <option value="">All</option>
-                    </select>
-                    <input type="submit" placeholder="Search" class="form-control search"><span class="fa fa-search"></span>
+                    <div class="col-md-4">
+                        <select asp-for="Industry" asp-items="ViewBag.Industry" class="form-control pl-3">
+                            <option value="">All</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" placeholder="Search" class="form-control search" style="background-color: #ff6200; color: floralwhite;"><span class="fa fa-search"></span>
+                    </div>
+                    
                 </form>
             </div>
+            
         </div>
         <div class="companies">
 
@@ -48,7 +55,7 @@
                         <div class="col-md-10 col-sm-10">
                             <div class="company-content">
                                 <h3>@item.Name<span class="part-time">@item.Qualification</span></h3>
-                                <p><span class="company-name"><i class="fa fa-briefcase"></i>@item.CompanyId</span><span class="company-location"><i class="fa fa-map-marker"></i>@item.JobLocation</span><span class="package"><i class="fa fa-money"></i>@item.Renumeration</span></p>
+                                <p><span class="company-name"><i class="fa fa-briefcase"></i>@item?.JobEmployer?.Name</span><span class="company-location"><i class="fa fa-map-marker"></i>@item.JobLocation</span><span class="package"><i class="fa fa-money"></i>@item.Renumeration</span></p>
                             </div>
                         </div>
                     </div>

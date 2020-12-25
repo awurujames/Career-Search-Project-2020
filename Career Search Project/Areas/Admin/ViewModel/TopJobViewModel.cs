@@ -42,7 +42,7 @@ namespace Career_Search_Project.Areas.Admin.ViewModel
         public decimal Renumeration { get; set; }
         public virtual Industry Industry { get; set; }
         public int CompanyId { get; set; }
-        public virtual JobEmployerViewModel JobEmployer { get; set; }
+        public virtual JobEmployer JobEmployer { get; set; }
         public int JobTypeId { get; set; }
         public virtual JobType JobType { get; set; }
     }

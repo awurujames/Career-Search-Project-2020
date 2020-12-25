@@ -65,18 +65,28 @@
 
 
                     <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="Index">Home</a></li>
-                    @*<li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="About">About</a></li>*@
-                    <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="Profile">Profile</a></li>
-                    <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="AllJobSeeker">Job Seeker</a></li>
-
-                    @*<li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="TopJobs">Top-Jobs</a></li>*@
-                    @*<li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="WalkIn">WalkIn</a></li>*@
-                    @*<li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="Jobs">Jobs</a></li>*@
+                    <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="TopJobs">Top-Jobs</a></li>
+                    <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="WalkIn">Walk In</a></li>
+                    <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="JobEmployer">Job Employers</a></li>
                     <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="AllJobs">All-Jobs</a></li>
-                    <li class="nav-item"><a asp-controller="Home" class="nav-link" asp-action="TobJobs">Top Jobs</a></li>
-                    @*<li class="nav-item"><a asp-area="Admin" asp-controller="Dashboard" class="nav-link" asp-action="Index">Admin</a></li>*@
-                    <li class="nav-item"><a asp-area="Admin" asp-controller="Account" class="nav-link" asp-action="Admin">Admin</a></li>
-                    <li class="nav-item"><a asp-area="Admin" asp-controller="Account" class="nav-link" asp-action="Register">Register</a></li>
+
+
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Account" class="nav-link" asp-action="Admin">Admin</a></li>
+                    }
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Account" class="nav-link" asp-action="Logout">Logout</a></li>
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Account" class="nav-link" asp-action="Login">Login</a></li>
+                        <li class="nav-item"><a asp-area="Admin" asp-controller="Account" class="nav-link" asp-action="Register">Register</a></li>
+                    }
+
 
 
 
@@ -87,7 +97,7 @@
     <!-- END nav -->
     <div class="hero-wrap">
         <div class="home-slider owl-carousel">
-            <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+            <div class="slider-item" style="background-image:url(/images/bg_1.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -102,7 +112,7 @@
                 </div>
             </div>
 
-            <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+            <div class="slider-item" style="background-image:url(/images/bg_2.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -117,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="slider-item" style="background-image:url(images/bg_3.jpg);">
+            <div class="slider-item" style="background-image:url(/images/bg_3.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-center">

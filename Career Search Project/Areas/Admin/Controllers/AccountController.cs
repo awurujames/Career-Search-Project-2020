@@ -60,13 +60,19 @@ namespace Career_Search_Project.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Administrator")]
+        //[Authorize(Roles = "Administrator")]
+        [AllowAnonymous]
+
         public IActionResult Register()
         {
 
             var model = new AccountRegisterViewModel();
+            model.UserRoles = GetRolesDropdown();
+
             return View(model);
+
         }
+
 
         [HttpPost]
         [AutoValidateAntiforgeryToken]
@@ -99,11 +105,11 @@ namespace Career_Search_Project.Areas.Admin.Controllers
             return View(model);
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Login");
+            return RedirectToAction("AllJobs", "Home", new { Area=""});
         }
             
 
