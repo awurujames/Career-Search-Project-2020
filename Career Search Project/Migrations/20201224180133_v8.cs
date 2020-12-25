@@ -9,7 +9,7 @@ namespace Career_Search_Project.Migrations
 
         }
 
-        protecte+d override void Down(MigrationBuilder migrationBuilder)
+        protected override void Down(MigrationBuilder migrationBuilder)
         {
 
         }
