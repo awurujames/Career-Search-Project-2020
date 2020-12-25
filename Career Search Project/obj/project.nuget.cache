@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ymqhcY89WHdYco8X+5Hi2rkxW3x8lJqYmaTq5kqO/tWS9QJ3AXZwKI1+PUSoBMXgkf6mDysTZam0v+A0uUh/ug==",
+  "dgSpecHash": "J/w/16Y56zHKfDKqUEDhQ5DS/mOfFdbAs1/8LeBXAXQJjf9bsMTwpCod31zj8K/MAr469QstA+sXAuu5Bqf9vw==",
   "success": true,
-  "projectFilePath": "C:\\CodebitAcademyFolder\\ASP.NET Core\\Career Search Project\\Career Search Project\\Career Search Project.csproj",
+  "projectFilePath": "C:\\Users\\23470\\Downloads\\Career Search\\Career Search\\Career-Search-Project-2020\\Career Search Project\\Career Search Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\23470\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\23470\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",

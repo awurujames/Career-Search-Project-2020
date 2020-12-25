@@ -7633,11 +7633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CodebitAcademyFolder\\ASP.NET Core\\Career Search Project\\Career Search Project\\Career Search Project.csproj",
+      "projectUniqueName": "C:\\Users\\23470\\Downloads\\Career Search\\Career Search\\Career-Search-Project-2020\\Career Search Project\\Career Search Project.csproj",
       "projectName": "Career Search Project",
-      "projectPath": "C:\\CodebitAcademyFolder\\ASP.NET Core\\Career Search Project\\Career Search Project\\Career Search Project.csproj",
+      "projectPath": "C:\\Users\\23470\\Downloads\\Career Search\\Career Search\\Career-Search-Project-2020\\Career Search Project\\Career Search Project.csproj",
       "packagesPath": "C:\\Users\\23470\\.nuget\\packages\\",
-      "outputPath": "C:\\CodebitAcademyFolder\\ASP.NET Core\\Career Search Project\\Career Search Project\\obj\\",
+      "outputPath": "C:\\Users\\23470\\Downloads\\Career Search\\Career Search\\Career-Search-Project-2020\\Career Search Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\23470\\AppData\\Roaming\\NuGet\\NuGet.Config",

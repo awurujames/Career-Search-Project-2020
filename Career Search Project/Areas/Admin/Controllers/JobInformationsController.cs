@@ -51,9 +51,10 @@ namespace Career_Search_Project.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Id");
-            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Id");
-            ViewData["JobTypeId"] = new SelectList(_repo.JobTypes, "Id", "Id");
+            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name");
+            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name");
+            ViewData["JobTypeId"] = new SelectList(_repo.JobTypes, "Id", "Name");
+            ViewData["CompanyId"] = new SelectList(_repo.JobEmployers, "Id", "Name");
             return View();
         }
 
@@ -70,6 +71,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
             ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name", jobInformation.FunctionalAreaId);
             ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name", jobInformation.IndustryId);
             ViewData["JobTypeId"] = new SelectList(_repo.JobTypes, "Id", "Name", jobInformation.JobTypeId);
+            ViewData["CompanyId"] = new SelectList(_repo.JobEmployers, "Id", "Name", jobInformation.CompanyId);
             return View(jobInformation);
         }
          
@@ -86,9 +88,10 @@ namespace Career_Search_Project.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Id", jobInformation.FunctionalAreaId);
-            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Id", jobInformation.IndustryId);
-            ViewData["JobTypeId"] = new SelectList(_repo.JobTypes, "Id", "Id", jobInformation.JobTypeId);
+            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name", jobInformation.FunctionalAreaId);
+            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name", jobInformation.IndustryId);
+            ViewData["JobTypeId"] = new SelectList(_repo.JobTypes, "Id", "Name", jobInformation.JobTypeId);
+            ViewData["CompanyId"] = new SelectList(_repo.JobEmployers, "Id", "Name", jobInformation.CompanyId);
             return View(jobInformation);
         }
 
@@ -115,9 +118,10 @@ namespace Career_Search_Project.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Id", jobInformation.FunctionalAreaId);
-            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Id", jobInformation.IndustryId);
-            ViewData["JobTypeId"] = new SelectList(_repo.JobTypes, "Id", "Id", jobInformation.JobTypeId);
+            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name", jobInformation.FunctionalAreaId);
+            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name", jobInformation.IndustryId);
+            ViewData["JobTypeId"] = new SelectList(_repo.JobTypes, "Id", "Name", jobInformation.JobTypeId);
+            ViewData["CompanyId"] = new SelectList(_repo.JobEmployers, "Id", "Name", jobInformation.CompanyId);
             return View(jobInformation);
         }
 

@@ -53,7 +53,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Industry industry)
+        public async Task<IActionResult> Create([Bind("Id", "Name")] Industry industry)
         {
             if (ModelState.IsValid)
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Career_Search_Project.Areas.Admin.Repository
 {
-    interface IJobTypeRepository
+   public interface IJobTypeRepository
     {
         Task<IEnumerable<JobType>> GetAll();
         Task<JobType> Get(int id);

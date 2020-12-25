@@ -1,6 +1,6 @@
-﻿@model IEnumerable<JobSeeker>
+﻿@model IEnumerable<TopJob>
 @{
-    ViewData["Title"] = "All Jobs";
+    ViewData["Title"] = "Index";
     Layout = "_Layout3";
 }
 
@@ -27,6 +27,7 @@
                             <img src="img/google.png" class="img-responsive" alt="" />
                         </div>
                     </div>
+
                     <div class="col-md-10 col-sm-10">
                         <div class="company-content">
                             @*<h3>IOS Developer<span class="full-time">Full Time</span></h3>
@@ -48,8 +49,8 @@
                         </div>
                         <div class="col-md-10 col-sm-10">
                             <div class="company-content">
-                                <h3>@item.Name<span class="part-time">@item.Qualification</span></h3>
-                                <p><span class="company-name"><i class="fa fa-briefcase"></i>@item.Skills</span><span class="company-location"><i class="fa fa-map-marker"></i>@item.UserId</span><span class="package"><i class="fa fa-money"></i>@item.Age</span></p>
+                                <h3>@item.Name<span class="part-time"></span></h3>
+                                @*<p><span class="company-name"><i class="fa fa-briefcase"></i>@item.Skills</span><span class="company-location"><i class="fa fa-map-marker"></i>@item.UserId</span><span class="package"><i class="fa fa-money"></i>@item.Age</span></p>*@
                             </div>
                         </div>
                     </div>

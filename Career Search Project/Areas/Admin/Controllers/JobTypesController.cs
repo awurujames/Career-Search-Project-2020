@@ -53,7 +53,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FullTime,PartTime,Temporary,Contract")] JobType jobType)
+        public async Task<IActionResult> Create([Bind("Id", "Name")] JobType jobType)
         {
             if (ModelState.IsValid)
             {
@@ -83,7 +83,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FullTime,PartTime,Temporary,Contract")] JobType jobType)
+        public async Task<IActionResult> Edit(int id, [Bind("Id", "Name")] JobType jobType)
         {
             if (id != jobType.Id)
             {

@@ -47,7 +47,7 @@ namespace Career_Search_Project.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] FunctionalArea functionalArea)
+        public async Task<IActionResult> Create([Bind("Id", "Name")] FunctionalArea functionalArea)
         {
             if (ModelState.IsValid)
             {
@@ -76,7 +76,7 @@ namespace Career_Search_Project.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id, Name")] FunctionalArea functionalArea)
+        public async Task<IActionResult> Edit(int id, [Bind("Id", "Name")] FunctionalArea functionalArea)
         {
             if (id != functionalArea.Id)
             {

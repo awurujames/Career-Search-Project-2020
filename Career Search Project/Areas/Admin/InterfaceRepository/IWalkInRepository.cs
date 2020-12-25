@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Career_Search_Project.Areas.Admin.Repository
 {
-    interface IWalkInRepository
+   public  interface IWalkInRepository
     {
         Task<IEnumerable<WalkIn>> GetAll();
         Task<WalkIn> Get(int id);

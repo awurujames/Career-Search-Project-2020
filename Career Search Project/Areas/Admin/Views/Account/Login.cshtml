@@ -12,13 +12,14 @@
 
         <div class="signin-image">
             <figure><img src="~/Log/images/signup-image.jpg" alt="sing up image"></figure>
-            <a href="#" class="signup-image-link">Create an account</a>
+            <div class="nav-item"><a asp-area="Admin" asp-controller="Account" class="nav-link" asp-action="Register">Create An Account</a></div>
         </div>
 
         <div class="form-group">
             <label asp-for="Email"></label>
             <input class="form-control" asp-for="Email" />
             <span class="text-danger" asp-validation-for="Email"></span>
+
 
         </div>
 

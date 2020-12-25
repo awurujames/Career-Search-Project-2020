@@ -61,7 +61,7 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FunctionalArea.Id)
+                @Html.DisplayFor(modelItem => item.FunctionalArea.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.JobLocation)
@@ -88,13 +88,13 @@
                 @Html.DisplayFor(modelItem => item.Renumeration)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Industry.Id)
+                @Html.DisplayFor(modelItem => item.Industry.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CompanyId)
+                @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.JobType.Id)
+                @Html.DisplayFor(modelItem => item.JobType.Name)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

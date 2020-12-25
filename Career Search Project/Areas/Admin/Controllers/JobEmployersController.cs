@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Career_Search_Project.Areas.Admin.Data;
 using Career_Search_Project.Areas.Admin.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Career_Search_Project.Areas.Admin.Controllers
 {
@@ -14,15 +15,17 @@ namespace Career_Search_Project.Areas.Admin.Controllers
     public class JobEmployersController : Controller
     {
         private readonly ApplicationDbContext _repo;
+        private readonly UserManager<User> _userManager;
 
-        public JobEmployersController(ApplicationDbContext repo)
+        public JobEmployersController(ApplicationDbContext repo, UserManager<User> userManager)
         {
             _repo = repo;
+            _userManager = userManager;
         }
 
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _repo.JobEmployers.Include(j => j.Industry).Include(j => j.TopJob);
+            var applicationDbContext = _repo.JobEmployers.Include(j => j.Industry); //.Include(j => j.TopJob);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -37,7 +40,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
 
             var jobEmployer = await _repo.JobEmployers
                 .Include(j => j.Industry)
-                .Include(j => j.TopJob)
+                //.Include(j => j.TopJob)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (jobEmployer == null)
             {
@@ -51,24 +54,26 @@ namespace Career_Search_Project.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
-            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Id");
-            ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Id");
+            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name");
+            ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Name");
             return View();
         }
 
        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Location,IndustryId,UserId,TopJobId")] JobEmployer jobEmployer)
+        public async Task<IActionResult> Create([Bind("Id,Name,Location,IndustryId")] JobEmployer jobEmployer)
         {
+            //var claims = HttpContext.User.HasClaim;
+            //jobEmployer.User
             if (ModelState.IsValid)
             {
                 _repo.Add(jobEmployer);
                 await _repo.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Id", jobEmployer.IndustryId);
-            ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Id", jobEmployer.TopJobId);
+            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name", jobEmployer.IndustryId);
+            //ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Name", jobEmployer.TopJobId);
             return View(jobEmployer);
         }
 
@@ -86,8 +91,8 @@ namespace Career_Search_Project.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Id", jobEmployer.IndustryId);
-            ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Id", jobEmployer.TopJobId);
+            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name", jobEmployer.IndustryId);
+            //ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Name", jobEmployer.TopJobId);
             return View(jobEmployer);
         }
 
@@ -114,8 +119,8 @@ namespace Career_Search_Project.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Id", jobEmployer.IndustryId);
-            ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Id", jobEmployer.TopJobId);
+            ViewData["IndustryId"] = new SelectList(_repo.Industries, "Id", "Name", jobEmployer.IndustryId);
+            //ViewData["TopJobId"] = new SelectList(_repo.TopJobs, "Id", "Name", jobEmployer.TopJobId);
             return View(jobEmployer);
         }
 
@@ -129,7 +134,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
 
             var jobEmployer = await _repo.JobEmployers
                 .Include(j => j.Industry)
-                .Include(j => j.TopJob)
+                //.Include(j => j.TopJob)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (jobEmployer == null)
             {

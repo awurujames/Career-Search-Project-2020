@@ -16,8 +16,9 @@ namespace Career_Search_Project.Areas.Admin.Models
         public virtual User User { get; set; }
         public ICollection<JobInformation> JobInformations { get; set; }
         public ICollection<WalkIn> WalkIn { get; set; }
-        public virtual TopJob TopJob { get; set; }
-        public int TopJobId { get; set; }
+        public ICollection<TopJob> TopJobs { get; set; }
+        //public virtual TopJob TopJob { get; set; }
+        //public int TopJobId { get; set; }
 
 
     }
