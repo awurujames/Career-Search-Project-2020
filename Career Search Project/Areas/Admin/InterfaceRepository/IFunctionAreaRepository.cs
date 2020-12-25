@@ -1,4 +1,4 @@
-﻿using Career_Search_Project.Areas.Admin.Models;
+﻿ using Career_Search_Project.Areas.Admin.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

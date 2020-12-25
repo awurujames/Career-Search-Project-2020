@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Career_Search_Project.Areas.Admin.Models;
 using Career_Search_Project.Areas.Admin.Repository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Career_Search_Project.Controllers
 {[Area("admin")]
+    [Authorize(Roles = "Administrator")]
     public class FunctionalAreasController : Controller
     {
         private readonly IFunctionAreaRepository _repo;
@@ -47,7 +49,7 @@ namespace Career_Search_Project.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] FunctionalArea functionalArea)
+        public async Task<IActionResult> Create([Bind("Id", "Name")] FunctionalArea functionalArea)
         {
             if (ModelState.IsValid)
             {
@@ -76,7 +78,7 @@ namespace Career_Search_Project.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id, Name")] FunctionalArea functionalArea)
+        public async Task<IActionResult> Edit(int id, [Bind("Id", "Name")] FunctionalArea functionalArea)
         {
             if (id != functionalArea.Id)
             {

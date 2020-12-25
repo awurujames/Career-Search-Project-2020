@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Career_Search_Project.Areas.Admin.Data;
 using Career_Search_Project.Areas.Admin.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Career_Search_Project.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Administrator")]
     public class JobSeekersController : Controller
     {
         private readonly ApplicationDbContext _repo;
@@ -46,7 +48,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
-            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Id");
+            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name");
             return View();
         }
 
@@ -61,7 +63,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
                 await _repo.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Id", jobSeeker.FunctionalAreaId);
+            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name", jobSeeker.FunctionalAreaId);
             return View(jobSeeker);
         }
 
@@ -77,7 +79,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Id", jobSeeker.FunctionalAreaId);
+            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name", jobSeeker.FunctionalAreaId);
             return View(jobSeeker);
         }
 
@@ -104,7 +106,7 @@ namespace Career_Search_Project.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Id", jobSeeker.FunctionalAreaId);
+            ViewData["FunctionalAreaId"] = new SelectList(_repo.FunctionalAreas, "Id", "Name", jobSeeker.FunctionalAreaId);
             return View(jobSeeker);
         }
 

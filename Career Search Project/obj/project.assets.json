@@ -7628,19 +7628,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\23470\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CodebitAcademyFolder\\ASP.NET Core\\Career Search Project\\Career Search Project\\Career Search Project.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Career Search\\Career-Search-Project-2020\\Career Search Project\\Career Search Project.csproj",
       "projectName": "Career Search Project",
-      "projectPath": "C:\\CodebitAcademyFolder\\ASP.NET Core\\Career Search Project\\Career Search Project\\Career Search Project.csproj",
-      "packagesPath": "C:\\Users\\23470\\.nuget\\packages\\",
-      "outputPath": "C:\\CodebitAcademyFolder\\ASP.NET Core\\Career Search Project\\Career Search Project\\obj\\",
+      "projectPath": "C:\\Users\\ACER\\Desktop\\Career Search\\Career-Search-Project-2020\\Career Search Project\\Career Search Project.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER\\Desktop\\Career Search\\Career-Search-Project-2020\\Career Search Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\23470\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7717,7 +7717,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

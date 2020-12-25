@@ -65,9 +65,6 @@ namespace Career_Search_Project.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TopJobId")
-                        .HasColumnType("int");
-
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
@@ -77,9 +74,6 @@ namespace Career_Search_Project.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("IndustryId");
-
-                    b.HasIndex("TopJobId")
-                        .IsUnique();
 
                     b.HasIndex("UserId1");
 
@@ -233,6 +227,9 @@ namespace Career_Search_Project.Migrations
                     b.Property<int>("IndustryId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("JobEmployerId")
+                        .HasColumnType("int");
+
                     b.Property<string>("JobLocation")
                         .HasColumnType("nvarchar(max)");
 
@@ -265,6 +262,8 @@ namespace Career_Search_Project.Migrations
                     b.HasIndex("FunctionalAreaId");
 
                     b.HasIndex("IndustryId");
+
+                    b.HasIndex("JobEmployerId");
 
                     b.HasIndex("JobTypeId");
 
@@ -535,19 +534,11 @@ namespace Career_Search_Project.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Career_Search_Project.Areas.Admin.Models.TopJob", "TopJob")
-                        .WithOne("JobEmployer")
-                        .HasForeignKey("Career_Search_Project.Areas.Admin.Models.JobEmployer", "TopJobId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Career_Search_Project.Areas.Admin.Models.User", "User")
                         .WithMany("Employer")
                         .HasForeignKey("UserId1");
 
                     b.Navigation("Industry");
-
-                    b.Navigation("TopJob");
 
                     b.Navigation("User");
                 });
@@ -623,6 +614,10 @@ namespace Career_Search_Project.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Career_Search_Project.Areas.Admin.Models.JobEmployer", "JobEmployer")
+                        .WithMany("TopJobs")
+                        .HasForeignKey("JobEmployerId");
+
                     b.HasOne("Career_Search_Project.Areas.Admin.Models.JobType", "JobType")
                         .WithMany()
                         .HasForeignKey("JobTypeId")
@@ -632,6 +627,8 @@ namespace Career_Search_Project.Migrations
                     b.Navigation("FunctionalArea");
 
                     b.Navigation("Industry");
+
+                    b.Navigation("JobEmployer");
 
                     b.Navigation("JobType");
                 });
@@ -742,6 +739,8 @@ namespace Career_Search_Project.Migrations
                 {
                     b.Navigation("JobInformations");
 
+                    b.Navigation("TopJobs");
+
                     b.Navigation("WalkIn");
                 });
 
@@ -752,11 +751,6 @@ namespace Career_Search_Project.Migrations
                     b.Navigation("JobTypes");
 
                     b.Navigation("WalkIns");
-                });
-
-            modelBuilder.Entity("Career_Search_Project.Areas.Admin.Models.TopJob", b =>
-                {
-                    b.Navigation("JobEmployer");
                 });
 
             modelBuilder.Entity("Career_Search_Project.Areas.Admin.Models.User", b =>

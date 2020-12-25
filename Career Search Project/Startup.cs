@@ -57,8 +57,8 @@ namespace Career_Search_Project
             services.AddScoped<IJobInformationRepository, JobInformationRepository> ();
             services.AddScoped<IJobSeekerRepository, JobSeekerRepository> ();
             services.AddScoped< IJobTypeRepository, JobTypeRepository > ();
-            services.AddScoped<IJobTypeRepository, JobTypeRepository>();
             services.AddScoped<IWalkInRepository, WalkInRepository>();
+            services.AddScoped<ITopJobRepository, TopJobRepository>();
 
 
             services.Configure<IdentityOptions>(options =>
@@ -123,7 +123,7 @@ namespace Career_Search_Project
 
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=AllJobs}/{id?}");
             });
         }
     }

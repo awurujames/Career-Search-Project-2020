@@ -7,7 +7,7 @@
 <h1>WalkIn</h1>
 
 <p>
-    <a asp-action="Create">Add Job(s)</a>
+    <a asp-action="Create" class="btn btn-success">Add Job(s)</a>
 </p>
 <table class="table">
     <thead>
@@ -40,19 +40,19 @@
                 @Html.DisplayFor(modelItem => item.JobName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FunctionalArea.Id)
+                @Html.DisplayFor(modelItem => item.FunctionalArea.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.InterviewLocation)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Industry.Id)
+                @Html.DisplayFor(modelItem => item.Industry.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CompanyId)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.JobType.Id)
+                @Html.DisplayFor(modelItem => item.JobType.Name)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

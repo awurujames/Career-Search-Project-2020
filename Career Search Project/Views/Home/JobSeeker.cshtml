@@ -1,0 +1,71 @@
+﻿@model JobSeekerViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout3";
+}
+
+<section class="inner-banner" style="backend:#242c36 url(https://via.placeholder.com/1920x600)no-repeat;">
+    <div class="container">
+        <div class="caption">
+            <h2>Get your jobs</h2>
+            <p>Get your Popular jobs <span>202 New job</span></p>
+        </div>
+    </div>
+</section>
+
+<section class="jobs">
+    <div class="container">
+        <div class="row heading">
+            <h2>Find Popular Jobs</h2>
+            <p>Your Easy Way Of Getting Jobs</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form class="searchform order-sm-start order-lg-last" method="get" asp-controller="Home" asp-action="AllJobs">
+                    <div class="col-md-4">
+                        <div class="form-group d-flex">
+                            <input type="text" asp-for="SearchString" class="form-control pl-3" placeholder="Search by job name">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <select asp-for="FunctionalArea" asp-items="ViewBag.FunctionalArea" class="form-control pl-3">
+                            <option value="">All</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" placeholder="Search" class="form-control search" style="background-color: #ff6200; color: floralwhite;"><span class="fa fa-search"></span>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <div class="companies">
+
+            @foreach (var item in Model.JobSeekers)
+            {
+                <div class="company-list">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="company-logo">
+                                <img src="img/microsoft.png" class="img-responsive" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-sm-10">
+                            <div class="company-content">
+                                <h3>@item.Name<span class="part-time">@item.Qualification</span></h3>
+                                <p><span class="company-name"><i class="fa fa-briefcase"></i>@item?.FunctionalArea?.Name</span><span class="company-location"><i class="fa fa-map-marker"></i>@item.Qualification</span><span class="package"><i class="fa fa-money"></i>@item.ContactInformation</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+        <div class="row">
+            <input type="button" class="btn brows-btn" value="Brows All Jobs" />
+        </div>
+    </div>
+</section>

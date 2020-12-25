@@ -7,7 +7,7 @@
 <h1>Job Seeker</h1>
 
 <p>
-    <a asp-action="Create">Add New Job Seeker</a>
+    <a asp-action="Create" class="btn btn-success">Add New Job Seeker</a>
 </p>
 <table class="table">
     <thead>
@@ -67,10 +67,10 @@
                 @Html.DisplayFor(modelItem => item.ContactInformation)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.UserId)
+                @Html.DisplayFor(modelItem => item.User.FullName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FunctionalArea.Id)
+                @Html.DisplayFor(modelItem => item.FunctionalArea.Name)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
